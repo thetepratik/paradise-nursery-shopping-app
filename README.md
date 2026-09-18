@@ -1,53 +1,108 @@
-https://github.com/thetepratik/simple-interest-calculator.git# Simple Interest Calculator
+# Paradise Nursery Shopping Application
 
-A simple calculator that calculates the simple interest based on the principal amount, rate of interest, and time period.
+## Project Name
 
-## Formula
+**Paradise Nursery Shopping Application**
 
-**Simple Interest = (Principal × Rate × Time) / 100**
+## Project Description
 
-Where:
+Paradise Nursery is a dynamic online plant shopping application that allows users to browse and purchase a variety of houseplants through a simple and user-friendly interface.
 
-* **Principal (P)** = Initial amount of money
-* **Rate (R)** = Annual rate of interest
-* **Time (T)** = Time period in years
-
-## Example
-
-If:
-
-* Principal = ₹10,000
-* Rate = 5%
-* Time = 2 years
-
-Then:
-
-**Simple Interest = (10,000 × 5 × 2) / 100 = ₹1,000**
-
-**Total Amount = ₹11,000**
+The application provides multiple plant categories, product information, shopping cart functionality, and dynamic price and quantity updates.
 
 ## Features
 
-* Takes principal amount as input
-* Takes rate of interest as input
-* Takes time period as input
-* Calculates simple interest
-* Displays the final amount
+* 🌱 Browse different categories of houseplants
+* 🪴 Display plant thumbnails, names, descriptions, and prices
+* 🛒 Add plants to the shopping cart
+* 🔢 Dynamically display the number of items in the cart
+* ➕ Increase plant quantity in the shopping cart
+* ➖ Decrease plant quantity in the shopping cart
+* 🗑️ Remove plants from the shopping cart
+* 💰 Calculate individual and total cart costs
+* 🏠 Navigate between Home, Plants, and Cart pages
+* 📱 User-friendly and responsive interface
+* 🔔 Checkout button with a "Coming Soon" message
 
 ## Technologies Used
 
-* HTML
-* CSS
+* React.js
+* Redux Toolkit
+* React Redux
 * JavaScript
+* HTML5
+* CSS3
+* Git
+* GitHub
 
-## How to Run
+## Application Pages
 
-1. Clone this repository.
-2. Open the project folder.
-3. Open `index.html` in a web browser.
-4. Enter the required values.
-5. Click the calculate button.
+### Home Page
+
+The landing page introduces **Paradise Nursery** and provides a **Get Started** button that takes users to the plant listing page.
+
+### About Us
+
+The About Us page provides information about Paradise Nursery and the company.
+
+### Plants / Product Listing
+
+Users can browse houseplants organized into different categories. Each plant displays:
+
+* Plant thumbnail
+* Plant name
+* Plant description
+* Plant price
+* Add to Cart button
+
+### Shopping Cart
+
+The cart page allows users to:
+
+* View selected plants
+* Increase or decrease quantities
+* Remove products
+* View unit prices
+* View total cost for each product
+* View the total cart amount
+* Continue shopping
+* Proceed to checkout
+
+## Redux State Management
+
+Redux Toolkit is used to manage the shopping cart state. The cart stores information about selected plants and their quantities and dynamically updates the cart count and total price.
+
+## Project Structure
+
+```text
+paradise-nursery-shopping-app/
+│
+├── public/
+│
+├── src/
+│   ├── components/
+│   │   ├── AboutUs.jsx
+│   │   ├── ProductList.jsx
+│   │   └── CartItem.jsx
+│   │
+│   ├── redux/
+│   │   └── CartSlice.jsx
+│   │
+│   ├── App.jsx
+│   ├── App.css
+│   └── main.jsx
+│
+├── package.json
+├── README.md
+└── .gitignore
+```
+
+## Purpose of the Project
+
+The purpose of this project is to demonstrate the development of a dynamic e-commerce web application using React and Redux. It demonstrates component-based development, state management, routing, user interaction, and dynamic shopping cart calculations.
 
 ## Repository
 
-This project is created as part of the GitHub assignment.
+**Paradise Nursery Shopping Application**
+
+Built as a final project for a React/Redux web development course.
